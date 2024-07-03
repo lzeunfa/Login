@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{background-color: black;
     background-image: url(bckadv3.png);
@@ -21,7 +22,7 @@ main{background-color: rgba(70, 70, 70, 0.589);
 
 main > h1{margin: 0px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Arsenal SC' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 20px 0px 0px 0px;
 
 }
@@ -36,7 +37,7 @@ form{background-color: rgba(255, 255, 255, 0.342);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arsenal SC','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: 1s;
 
 }
