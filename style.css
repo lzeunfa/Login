@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body{background-color: black;
+    background-image: url(bckadv3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{background-color: rgba(70, 70, 70, 0.589);
+    width: 25vw;
+    height: 99vh;
+    min-width: 277.75px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.507);
+    position: relative;
+}
+
+main > h1{margin: 0px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 0px 0px 0px;
+
+}
+
+form{background-color: rgba(255, 255, 255, 0.342);
+    width: 20vw;
+    height: 237.188px;
+    min-width: 220.594px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 1s;
+
+}
+
+form:hover{border: 1.5px solid whitesmoke;
+    box-shadow:  1px 1px 1px whitesmoke;
+    transition: 1s;
+
+}
+
+form > h1{text-align: center;
+            text-shadow: 0.2px 0.2px 0.2px rgba(95, 95, 95, 0.589) ;
+}
+
+form > p{padding-left: 7px;
+    font-weight: bold;
+
+}
+
+form > p.senha{padding: 10px 7px 0px 20px;
+
+}
+
+input.txt{background-color: rgba(255, 255, 255, 0.466);
+        border: 1px solid transparent;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+}
+
+p.submit{text-align: center;
+
+}
+
+input.submit{padding: 10px;
+            border-radius: 20px;
+            border: 1px solid transparent;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.466);
+            transition: 0.5s;
+
+}
+
+input.submit:hover{border:1px solid rgba(0, 0, 0, 0.589);
+                    transition: 0.5s;
+}
